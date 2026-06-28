@@ -1,0 +1,48 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#071A12"/>
+      <stop offset="1" stop-color="#135246"/>
+    </linearGradient>
+    <linearGradient id="emerald" x1="240" y1="170" x2="970" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="460" y1="180" x2="980" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="960" cy="170" r="220" fill="#34D399" fill-opacity="0.16"/>
+  <circle cx="220" cy="620" r="210" fill="#22D3EE" fill-opacity="0.10"/>
+
+  <rect x="120" y="150" width="960" height="500" rx="40" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.14"/>
+  <rect x="160" y="190" width="880" height="72" rx="22" fill="white" fill-opacity="0.07"/>
+  <circle cx="210" cy="226" r="12" fill="#34D399"/>
+  <circle cx="246" cy="226" r="12" fill="#38BDF8"/>
+  <circle cx="282" cy="226" r="12" fill="#FBBF24"/>
+  <rect x="330" y="210" width="160" height="32" rx="12" fill="white" fill-opacity="0.08"/>
+  <rect x="840" y="210" width="160" height="32" rx="12" fill="white" fill-opacity="0.08"/>
+
+  <rect x="160" y="292" width="330" height="318" rx="28" fill="white" fill-opacity="0.05"/>
+  <rect x="522" y="292" width="518" height="318" rx="28" fill="white" fill-opacity="0.05"/>
+
+  <rect x="205" y="350" width="60" height="200" rx="18" fill="url(#emerald)" fill-opacity="0.85"/>
+  <rect x="295" y="392" width="60" height="158" rx="18" fill="url(#sky)" fill-opacity="0.85"/>
+  <rect x="385" y="324" width="60" height="226" rx="18" fill="url(#emerald)" fill-opacity="0.65"/>
+
+  <path d="M572 534L660 470L742 500L838 410L942 444" stroke="url(#sky)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="572" cy="534" r="16" fill="#22D3EE"/>
+  <circle cx="660" cy="470" r="16" fill="#34D399"/>
+  <circle cx="742" cy="500" r="16" fill="#FBBF24"/>
+  <circle cx="838" cy="410" r="16" fill="#22D3EE"/>
+  <circle cx="942" cy="444" r="16" fill="#34D399"/>
+
+  <circle cx="780" cy="372" r="96" fill="#34D399" fill-opacity="0.20"/>
+  <circle cx="780" cy="372" r="60" stroke="#22D3EE" stroke-width="18" stroke-opacity="0.9"/>
+  <path d="M780 312V372L825 402" stroke="white" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="572" y="540" width="318" height="28" rx="12" fill="white" fill-opacity="0.07"/>
+  <rect x="572" y="580" width="210" height="20" rx="10" fill="white" fill-opacity="0.09"/>
+</svg>

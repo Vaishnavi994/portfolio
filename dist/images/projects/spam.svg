@@ -1,0 +1,36 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A0C0C"/>
+      <stop offset="1" stop-color="#7A1F1F"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="290" y1="180" x2="920" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FB7185"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="520" y1="200" x2="820" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="930" cy="200" r="220" fill="#FB7185" fill-opacity="0.16"/>
+  <circle cx="220" cy="600" r="200" fill="#F97316" fill-opacity="0.10"/>
+
+  <rect x="130" y="180" width="940" height="440" rx="42" fill="white" fill-opacity="0.06" stroke="white" stroke-opacity="0.14"/>
+  <path d="M250 260H950C980 260 1000 280 1000 310V490C1000 520 980 540 950 540H250C220 540 200 520 200 490V310C200 280 220 260 250 260Z" fill="white" fill-opacity="0.06"/>
+  <path d="M220 292L600 456L980 292" stroke="url(#warm)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M220 292L600 456L980 292" stroke="white" stroke-opacity="0.14" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M220 524L458 370" stroke="white" stroke-opacity="0.12" stroke-width="12" stroke-linecap="round"/>
+  <path d="M980 524L742 370" stroke="white" stroke-opacity="0.12" stroke-width="12" stroke-linecap="round"/>
+
+  <circle cx="600" cy="382" r="120" fill="url(#shield)" fill-opacity="0.22"/>
+  <path d="M600 310L682 344V406C682 468 639 515 600 534C561 515 518 468 518 406V344L600 310Z" fill="white" fill-opacity="0.95"/>
+  <path d="M561 402L590 431L645 372" stroke="#10B981" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="330" y="590" width="540" height="44" rx="18" fill="white" fill-opacity="0.08"/>
+  <rect x="360" y="590" width="150" height="44" rx="18" fill="url(#warm)" fill-opacity="0.26"/>
+  <circle cx="270" cy="220" r="16" fill="#FB7185"/>
+  <circle cx="310" cy="220" r="10" fill="#F97316"/>
+  <circle cx="350" cy="220" r="14" fill="#FDE68A"/>
+</svg>

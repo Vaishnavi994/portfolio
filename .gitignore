@@ -1,0 +1,5 @@
+node_modules
+.vite-cache
+*.log
+.vite-dev-*.log
+dev-server*.log

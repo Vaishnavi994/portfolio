@@ -1,0 +1,11 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node serve-dist.mjs",
+    "preview": "node serve-dist.mjs",
+    "build": "node -e \"console.log('Static dist is already committed')\""
+  }
+}
