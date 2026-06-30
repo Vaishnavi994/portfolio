@@ -3,7 +3,6 @@ import fs from 'node:fs'
 import path from 'node:path'
 
 const distDir = path.resolve('dist')
-const basePath = '/my_portfolio'
 const port = Number(process.env.PORT || 3000)
 const host = process.env.HOST || '0.0.0.0'
 
@@ -42,17 +41,7 @@ http
     let pathname = url.pathname
 
     if (pathname === '/') {
-      send(res, 302, { Location: `${basePath}/` }, '')
-      return
-    }
-
-    if (pathname === basePath || pathname === `${basePath}/`) {
       pathname = '/index.html'
-    } else if (pathname.startsWith(`${basePath}/`)) {
-      pathname = pathname.slice(basePath.length)
-    } else {
-      send(res, 404, { 'Content-Type': 'text/plain; charset=utf-8' }, 'Not found')
-      return
     }
 
     const filePath = resolveAsset(pathname)
@@ -72,5 +61,5 @@ http
     })
   })
   .listen(port, host, () => {
-    console.log(`Static preview ready at http://localhost:${port}${basePath}/`)
+    console.log(`Static preview ready at http://localhost:${port}/`)
   })
